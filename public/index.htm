@@ -1,0 +1,22 @@
+<html>
+<link type="text/css" id="dark-mode" rel="stylesheet" href="">
+<style type="text/css" id="dark-mode-custom-style"></style>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <title>Screen Recorder</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <h1>Record the screen</h1>
+  <!-- <video id="video" controls="true" controlslist="nodownload" src="blob:https://video.jace.pro/adb3312b-c43c-4ed7-9b7a-29ebcaad28b7"></video> -->
+  <video id="video" controls="true" src="blob://adb3312b-c43c-4ed7-9b7a-29ebcaad28b7"></video>
+  <button class="btn" id="record" onclick="record()" style="display: inline;">Record</button>
+  <button style="display: none;" class="btn" id="stop" onclick="stop()">Stop</button>
+  <button class="btn" id="download" onclick="download()">Download</button>
+
+  <script src="js/script.js" async></script>
+</body>
+
+</html>
